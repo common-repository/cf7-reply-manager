@@ -1,0 +1,338 @@
+/* Index */
+
+.wrap h3{
+   margin-top: 80px;
+}
+
+.cf7-rm-container .status-navigation {
+   margin-top: 40px;
+}
+
+#cf7-rm-select-form{
+   height: 40px;
+   min-width: 200px;
+}
+
+.cf7-rm-container .status-navigation li{
+   display: inline-block;
+}
+
+.cf7-rm-container .status-navigation li a{
+   position: relative;
+   text-decoration: none;
+   color: #23282d;
+   font-size: 15px;
+   padding:0 20px;
+   border-right: 2px solid #23282d;
+}
+
+.cf7-rm-container .status-navigation li:first-child a{
+   padding-left: 0;
+}
+
+.cf7-rm-container .status-navigation li:last-child a{
+   border-right: none;
+}
+
+.cf7-rm-container .status-navigation li a:hover:not(.active){
+   opacity: 0.7;
+}
+
+.cf7-rm-container .status-navigation li a.active{
+   font-weight: bold;
+}
+
+.cf7-rm-container .status-navigation li a.active:after{
+   content: '';
+   position: absolute;
+   bottom: -10px;
+   border-radius: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-3px);
+      -moz-transform: translateX(-3px);
+       -ms-transform: translateX(-3px);
+        -o-transform: translateX(-3px);
+           transform: translateX(-3px);
+   height: 6px;
+   width: 6px;
+   background-color: #0073aa;
+}
+
+.cf7-rm-container .status-navigation li:first-child a.active:after{
+   -webkit-transform: translateX(-13px);
+      -moz-transform: translateX(-13px);
+       -ms-transform: translateX(-13px);
+        -o-transform: translateX(-13px);
+           transform: translateX(-13px);
+}
+
+#csv-button,
+#approve-button,
+#remove-button,
+#reject-button{
+   top: 74px;
+   margin: 0px 10px 40px 0;
+   border: 1px solid currentColor;
+   padding: 10px 20px;
+   border-radius: 20px;
+   color: white;
+   cursor: pointer;
+}
+
+#approve-button{
+   background-color: #3bc794;
+}
+
+#reject-button{
+   background-color: #f30f43cf;
+}
+
+#remove-button{
+   background-color: #a00303;
+}
+
+#csv-button{
+   background-color: #0073aa;
+}
+
+#approve-button:hover,
+#reject-button:hover{
+   opacity: 0.7;
+}
+
+#date-filter{
+   margin-bottom: -30px;
+   z-index: 999;
+   position: relative;
+   width: 500px;
+}
+
+#cf7-rm-response-list_wrapper #cf7-rm-response-list_length{
+   display: block;
+   float: right;
+   margin-left: 40px;
+   margin-bottom: 40px;
+}
+
+#cf7-rm-response-list_wrapper #cf7-rm-response-list_filter label,
+#cf7-rm-response-list_wrapper #cf7-rm-response-list_length label {
+   font-size: 14px;
+} 
+
+#cf7-rm-response-list_wrapper #cf7-rm-response-list_filter label input,
+#cf7-rm-response-list_wrapper #cf7-rm-response-list_length label select{
+   height: 30px;
+}
+
+#cf7-rm-response-list_wrapper #cf7-rm-response-list{
+   border-bottom: none;
+}
+#cf7-rm-response-list_wrapper thead{
+   background-color: #0073aa;
+   color: white;
+}
+
+#cf7-rm-response-list_wrapper thead tr th{
+   padding: 10px 10px;
+   text-align: left;
+   border-bottom: .1px solid #c1c1c1;
+}
+
+#cf7-rm-response-list_wrapper tbody tr td{
+   border-bottom: .1px solid #c1c1c1;
+   padding: 10px 10px;
+   border-right: none;
+}
+
+#cf7-rm-response-list_wrapper tbody tr.even{
+   background-color: #EFEAEA;
+}
+
+#cf7-rm-response-list_paginate{
+   margin-top: 40px;
+}
+
+#cf7-rm-response-list_paginate .paginate_button.disabled{
+   display: none;
+}
+
+
+/* Popup */
+
+.cf7-rm-popup{
+   position: absolute;
+   top: 20px;
+   padding: 10px 20px;
+   width: auto;
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+}
+
+.cf7-rm-popup a{
+   color: white;
+}
+
+.cf7-rm-popup.cf7-rm-success-popup{
+   background-color: #3bc794;
+}
+
+.cf7-rm-popup.cf7-rm-error-popup{
+   background-color: #f30f43cf;
+}
+
+/* Replies */
+
+.approval:first-child{
+   float: left;
+}
+.approval{
+   vertical-align: top;
+   display: inline-block;
+   margin-top: 40px;
+   margin-right: 80px;
+   width: 40%;
+   min-width: 320px;
+}
+
+.approval h2{
+   margin-bottom: 20px;
+}
+.approval label{
+   font-size: 14px;
+   display: block;
+   margin-bottom: 10px;
+}
+
+.approval input, .approval textarea{
+   display: block;
+   margin-bottom: 20px;
+}
+
+.approval input{
+   height: 40px;
+   min-width: 100%;
+}
+
+input[type=submit]{
+   display: block;
+   margin: 40px 10px 40px 0;
+   border: 1px solid currentColor;
+   padding: 10px 20px;
+   border-radius: 20px;
+   color: white;
+   cursor: pointer;
+   background-color: #0073aa;
+}
+
+input[type=submit]:hover{
+   opacity: 0.7;
+}
+
+.approval textarea{
+   text-align: left;
+   min-height: 250px;
+   min-width: 100%;
+}
+
+.approval .file-attachment .preview-box {
+   position: relative;
+   width: auto;
+   max-width: 300px;
+}
+.approval .file-attachment .preview-box strong{
+   display: block;
+}
+.approval .file-attachment .preview-box  a{
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+   color: #0073aa;
+}
+
+.approval .file-attachment .preview-box  a.preview-link svg{
+   display: inline-block;
+   margin-bottom: 10px;
+   vertical-align: top;
+}
+
+.approval .file-attachment .preview-box a.preview-link:after{
+   content: '(preview)';
+   display: inline-block;
+   font-size: 16px;
+}
+
+.approval .file-attachment .preview-box a.clear-attachment{
+   position: absolute;
+   font-size: 25px;
+   top: 0;
+   right: 80px;
+}
+
+.approval .file-attachment .preview-box a:hover{
+   opacity: 0.7;
+}
+
+.attachment-section .hidden {
+   display: none;
+}
+
+.approval .attachment-section{
+   margin-top: 20px;
+}
+
+form .sender-settings{
+   margin-top: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+   form .sender-settings label{
+      display: block;
+      margin: 10px 0;
+   }
+   form .sender-settings input{
+      display: block;
+      margin-bottom: 10px;
+      min-width: 280px;
+   }
+}
+
+form .sender-settings label{
+   margin-right: 20px;
+}
+
+form .sender-settings input{
+   height: 40px;
+   width: auto;
+   margin-right: 20px;
+   width: auto;
+}
+
+#cf7-rm-modal{
+   position: fixed;
+   z-index: 3;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: #fefefe;
+   padding: 5px 20px;
+}
+#cf7-rm-modal p{
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+#cf7-rm-modal a{
+   display: inline-block;
+   border: 1px solid currentColor;
+   padding: 10px 20px;
+   border-radius: 20px;
+   color: white;
+   cursor: pointer;
+   background-color: #0073aa;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+#cf7-rm-modal a:hover{
+   opacity: 0.7;
+}
